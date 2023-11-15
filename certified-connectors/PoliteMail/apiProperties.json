@@ -42,7 +42,16 @@
               }
             }
           },
-        "iconBrandColor": "",
+        "iconBrandColor": "#0067B0",
+        "policyTemplateInstances": [
+          {
+            "templateId": "dynamicHostUrl",
+            "title": "Set host from connection parameter",
+            "parameters": {
+              "x-ms-apimTemplateParameter.urlTemplate": "@connectionParameters('instanceUrl')"
+            }
+          }
+        ],
         "publisher": "PoliteMail",
         "stackOwner": "PoliteMail"
       }

@@ -24,7 +24,7 @@
       "propertyValue": "Communication;Productivity"
     }
   ],
-  "host": "notused.tobereplaced.com",
+  "host": "yourpolitemaildomain.com",
   "basePath": "/api",
   "schemes": [
     "https"
